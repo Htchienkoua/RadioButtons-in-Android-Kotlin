@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_dark"
+    android:gravity="center_horizontal"
+    android:id="@+id/linearlayout"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="75dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/green"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yellow"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/red"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/ButtonChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Change Background Color"
+            android:textAllCaps="false"
+            android:backgroundTint="#E91E63"
+            android:layout_marginTop="50dp"/>
+
+    </RadioGroup>
+
+
+</LinearLayout>
